@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #191c32;
+}
+.title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.title span {
+    color: aqua;
+}
+
+.menu {
+    color: #fff;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+  
+.menu li{
+    color: #fff;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+    transition: ease-in;
+}
+ 
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: ease-in;
+    transition: ease-out .3s;
+}
+
+.menu a:hover {
+    background-color: aqua;
+    padding: 10px 20px;
+    color: black;
+    transition: ease-in .3s;
+}
+
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: aqua;
+    margin-top: 5px;
+}
+
+.message {
+    display: grid;
+    color: white;
+    grid-column: 5/10;
+    padding: 3em;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.message:hover {
+    display: grid;
+    color: aqua;
+    grid-column: 5/10;
+    padding: 3em;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.message img {
+    grid-column: 1/5;
+}
+
+.coments {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.coments button {
+    background-color: aqua;
+    border-bottom: none;
+    border-top: none;
+    border-style: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.coments button:hover {
+    background-color: aquamarine;
+}
